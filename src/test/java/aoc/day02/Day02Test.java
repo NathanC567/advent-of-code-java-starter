@@ -24,8 +24,7 @@ public class Day02Test {
 
     @Test
     public void testPart2() {
-        // Given
-        List<String> input = Arrays.asList("3", "1", "1", "-1", "2", "-1", "-1");
+        List<String> input = Collections.singletonList("bababc");
 
         // When
         String result = new Day02().part2(input);
