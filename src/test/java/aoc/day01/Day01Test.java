@@ -12,7 +12,7 @@ public class Day01Test {
     @Test
     public void testPart1(){
         // Given
-        List<String> input = Collections.singletonList("test");
+        List<String> input = Collections.singletonList("-5");
 
         // When
         String result = new Day01().part1(input);

@@ -8,12 +8,23 @@ public class Day01 implements Day {
 
     @Override
     public String part1(List<String> input) {
-        return input.isEmpty() ? "" : input.get(0);
+        int sum = 0;
+        for (String numStr : input) {
+            int num = Integer.parseInt(numStr);
+            sum += num;
+        }
+        return Integer.toString(sum);
     }
 
     @Override
     public String part2(List<String> input) {
-        return input.isEmpty() ? "" : input.get(0);
-    }
 
+        int sum = 0;
+        for (String numStr : input) {
+            int num = Integer.parseInt(numStr);
+            sum += num;
+
+        }
+        return Integer.toString(sum);
+    }
 }
